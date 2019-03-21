@@ -1,0 +1,31 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+.header {
+    background:url(/assets/img1.png) no-repeat left -100px, #fff;
+    background-size: cover;
+    height: 89rem;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.navigation__menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style-type: none;
+}
+
+.navigation__menu li {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
