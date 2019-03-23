@@ -8,15 +8,15 @@ body {
 }
 
 .header {
-    background:url(/assets/img1.png) no-repeat right -80px, #f8f8fb;
-    background-size: initial;
+    background:url(/assets/img1.png) no-repeat right -120px, #f8f8fb;
+    background-size: cover;
     height: 90vh;
     width: 100%;
 }
 
 .navigation {
     display: flex;
-    padding-top: 3rem;
+    padding-top: 4.5rem;
     margin-left: 10rem
 }
 
@@ -56,7 +56,7 @@ body {
     font-size: 6rem;
     font-weight: 800;
     color: #262626;
-    margin-top: 20rem;
+    margin-top: 1.4rem;
 }
 
 .header__body__p {
