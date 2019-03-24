@@ -17,7 +17,7 @@ body {
 .navigation {
     display: flex;
     padding-top: 4.5rem;
-    margin-left: 10rem
+    margin-left: 20rem
 }
 
 .navigation__logo {
@@ -49,7 +49,7 @@ body {
     width: 25%;
     display: flex;
     flex-direction: column;
-    margin-left: 10rem;
+    margin-left: 20rem;
 }
 
 .header__body__title {
@@ -93,7 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 10rem;
+    padding-right: 20rem;
 }
 
 .section__header {
@@ -180,9 +180,68 @@ body {
 }
 
 .section__third {
-    background: #ffd863;
-    height: 950px;
+    height: 145rem;
+    background: #fcc623;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__third__header {
+    color: #000;
+    padding-top: 6rem;
+}
+
+.section__third__paragraph {
+    color: #000;
+    text-align: center;
+    width: 65%;
+}
+
+.section__third__box {
+    display: flex;
+}
+
+.section__third_boxsidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__third__photo {
+    margin: 1.5rem;
+    box-shadow: 0.5px 2px 5px 0px rgba(0, 0, 0, 0.62);
+}
+
+.section__third__photo7 {
+    margin-right: 3rem
+}
+
+.section__third__photo8 {
+    margin-left: 3rem;
+}
+
+.section__third__photo:hover {
+    box-shadow: 0.5px 2px 5px 0px rgba(0, 0, 0, 0.9);
+}
+
+.section__third__boxrow {
+    display: flex;
+    margin: 1rem;
+}
+
+.section__third__button {
+    background-color: #47a5ff;
+    text-transform: uppercase;
+    width: 10%;
+    height: 5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    border: none;
+    box-shadow: 0.5px 2px 5px 0px rgba(0, 0, 0, 0.62);
+    transition: box-shadow .5s linear;
+    cursor: pointer;
+    margin: 5rem 0 5rem 0;
 }
 
 .section__fourth {
