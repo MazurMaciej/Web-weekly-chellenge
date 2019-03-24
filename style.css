@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    background:url(/assets/img1.png) no-repeat right -120px, #f8f8fb;
+    background: url(/assets/img1.png) no-repeat right -120px, #f8f8fb;
     background-size: cover;
     height: 95vh;
     width: 100%;
@@ -76,7 +76,7 @@ body {
     font-size: 1.8rem;
     color: #fff;
     border: none;
-    box-shadow: 0.5px 2px 5px 0px rgba(0,0,0,0.62);
+    box-shadow: 0.5px 2px 5px 0px rgba(0, 0, 0, 0.62);
     transition: box-shadow .5s linear;
     cursor: pointer;
     margin-bottom: 10rem;
@@ -87,7 +87,7 @@ body {
 }
 
 .section__first {
-    background:url(/assets/img2.png) no-repeat 100px, #00c4c4;
+    background: url(/assets/img2.png) no-repeat 100px, #00c4c4;
     background-size: initial;
     height: 90vh;
     display: flex;
@@ -115,7 +115,7 @@ body {
 
 .section__second {
     width: 100%;
-    background:url(/assets/img3.png) no-repeat 850px, #47a5ff;
+    background: url(/assets/img3.png) no-repeat 1050px, #47a5ff;
     background-size: initial;
     height: 85vh;
     display: flex;
@@ -131,29 +131,52 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .section__box__img {
     display: flex;
 }
 
-.section__box__img img {
-    background: #fcfcfc;
+.section__box__imgpattern {
+    width: 10rem;
     height: 7rem;
+    margin-bottom: 1.5rem;
+    margin: 1rem 1rem 1rem 0;
+    box-shadow: 0.5px 2px 5px 0px rgba(0, 0, 0, 0.62);
+}
+
+.section__box__img1 {
+    background: url(/assets/icon1.png) no-repeat center center, #fcfcfc;
+}
+
+.section__box__img2 {
+    background: url(/assets/icon2.png) no-repeat center center, #fcfcfc;
+}
+
+.section__box__img3 {
+    background: url(/assets/icon3.png) no-repeat center center, #fcfcfc;
+}
+
+.section__box__img4 {
+    background: url(/assets/icon4.png) no-repeat center center, #fcfcfc;
 }
 
 .section__box__button {
-   background: #fcfcfc;
-   font-size: 1.4rem;
-   color: #605e5e;
-   width: 40rem;
-   margin: 1rem;
-   height: 7rem;
-   margin-bottom: 1.5rem;
-   border: none;
-   box-shadow: 0.5px 2px 5px 0px rgba(0,0,0,0.62);
-   transition: box-shadow .5s linear;
+    background: #fcfcfc;
+    font-size: 1.4rem;
+    color: #605e5e;
+    width: 40rem;
+    margin: 1rem 0 1rem 1rem;
+    height: 7rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    box-shadow: 0.5px 2px 5px 0px rgba(0, 0, 0, 0.62);
+    transition: box-shadow .5s linear;
+}
+
+.section__box__button:hover {
+    background: #e5e5e5;
 }
 
 .section__third {
