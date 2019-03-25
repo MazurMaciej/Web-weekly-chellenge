@@ -180,7 +180,7 @@ body {
 }
 
 .section__third {
-    height: 145rem;
+    height: auto;
     background: #fcc623;
     width: 100%;
     display: flex;
@@ -293,8 +293,40 @@ body {
 
 .section__fifth {
     background: #6f42c1;
-    height: 950px;
+    height: 90vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__fifth__blogphoto {
+    max-width: 100%;
+    box-shadow: 0px 2px 10px 0px rgba(50,50,50,0.6);
+    transition: all 0.4s;
+    height: fit-content;
+}
+
+.section__fifth__blogphoto2 {
+    height: 33rem;
+}
+
+.section__fifth__header {
+    padding-top: 7rem;
+}
+
+.section__fifth__blogbox {
+    display: flex;
+
+}
+
+.section__fifth__blogphoto {
+    margin: 1rem;
+}
+
+.section__fifth__paragraph {
+    width: 90%;
+    text-align: center;
 }
 
 .section__sixth {
