@@ -293,7 +293,7 @@ body {
 
 .section__fifth {
     background: #6f42c1;
-    height: 90vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -329,13 +329,27 @@ body {
     text-align: center;
 }
 
-.section__sixth {
-    background: #fff;
-    height: 950px;
-    width: 100%;
+.section__fifth__button {
+    background-color: #F82B3C;
+    text-transform: uppercase;
+    width: 10%;
+    height: 5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    border: none;
+    box-shadow: 0.5px 2px 5px 0px rgba(0, 0, 0, 0.32);
+    transition: box-shadow .5s linear;
+    cursor: pointer;
+    margin: 5rem 0 5rem 0; 
 }
 
 footer {
-    height: 100px;
+    height: auto;
     background: #000;
+}
+
+.section__fifth__paragraph {
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 3rem;
 }
