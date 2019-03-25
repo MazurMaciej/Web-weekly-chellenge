@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    background: url(/assets/img1.png) no-repeat right -120px, #f8f8fb;
+    background: url(assets/img1.png) no-repeat right -120px, #f8f8fb;
     background-size: cover;
     height: 95vh;
     width: 100%;
@@ -87,7 +87,7 @@ body {
 }
 
 .section__first {
-    background: url(/assets/img2.png) no-repeat 100px, #00c4c4;
+    background: url(assets/img2.png) no-repeat 100px, #00c4c4;
     background-size: initial;
     height: 90vh;
     display: flex;
@@ -115,7 +115,7 @@ body {
 
 .section__second {
     width: 100%;
-    background: url(/assets/img3.png) no-repeat 1050px, #47a5ff;
+    background: url(assets/img3.png) no-repeat 1050px, #47a5ff;
     background-size: initial;
     height: 85vh;
     display: flex;
@@ -147,19 +147,19 @@ body {
 }
 
 .section__box__img1 {
-    background: url(/assets/icon1.png) no-repeat center center, #fcfcfc;
+    background: url(assets/icon1.png) no-repeat center center, #fcfcfc;
 }
 
 .section__box__img2 {
-    background: url(/assets/icon2.png) no-repeat center center, #fcfcfc;
+    background: url(assets/icon2.png) no-repeat center center, #fcfcfc;
 }
 
 .section__box__img3 {
-    background: url(/assets/icon3.png) no-repeat center center, #fcfcfc;
+    background: url(assets/icon3.png) no-repeat center center, #fcfcfc;
 }
 
 .section__box__img4 {
-    background: url(/assets/icon4.png) no-repeat center center, #fcfcfc;
+    background: url(assets/icon4.png) no-repeat center center, #fcfcfc;
 }
 
 .section__box__button {
@@ -245,7 +245,7 @@ body {
 }
 
 .section__fourth {
-    background: url(/assets/img9.png) no-repeat center, #fff;
+    background: url(assets/img9.png) no-repeat center, #fff;
     background-size: initial;
     height: 40vh;
     margin-left: 20rem;
@@ -352,4 +352,24 @@ footer {
     color: #fff;
     font-size: 1.8rem;
     padding: 3rem;
+}
+
+@media (max-width:1410px) {
+    
+    .navigation {
+        margin-left: 5rem;  
+    } 
+
+    .header__body {
+        margin-left: 5rem; 
+    }
+
+    .section__first {
+        padding-right: 5rem;
+}
+    .section__second {
+        background: url(assets/img3.png) no-repeat right, #47a5ff;
+        background-size: initial;
+    }
+
 }
